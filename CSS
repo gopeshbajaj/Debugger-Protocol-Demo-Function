@@ -1,0 +1,13 @@
+.breakpoint {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.breakpoint.active {
+    background-color: red;
+}
